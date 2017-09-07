@@ -2,3 +2,58 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Permanent+Marker|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
+// h1{
+//     color: white;
+//     background-color: black;
+//     text-align: center;
+// }
+// .cassidy{
+//     color: deeppink;
+// }
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: yellow;
+    background-color: deeppink;
+}
+
+
+.panel-title{
+    font-family: 'Abril Fatface', cursive;
+    color: yellow;
+    font-size: 2em;
+}
+.panel-body{
+    font-family: 'Permanent Marker', cursive;
+    color: yellow;
+}
+
+.panel-default{
+    background-color: deeppink;
+    color: yellow;
+}
+
+.panel-default > .panel-heading {
+    color: white;
+    background-color: blue;
+    border-color: #ddd;
+}
+
+body{
+    background-color: bisque;
+}
+
+.navbar-default .navbar-brand {
+    color: yellow;
+    font-size: 2em;
+    font-family: 'Leckerli One', cursive;
+}
+.navbar-default {
+    background-color: purple;
+    border-color: #e7e7e7;
+}
